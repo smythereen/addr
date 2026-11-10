@@ -4,6 +4,8 @@
 group, program, and subtask bytes. It supplies numeric decomposition, name
 conversion, and a mapped name table. This is not an IP-address or DNS library.
 
+It builds with the [base](https://github.com/smythereen/base) unit make system, which handles C, C++, and Rust, including large mixed-language projects.
+
 ## Public interface
 
 - `addr.h`: `Addr_t`, `Numbers_To_Address`, `Address_To_*_Number`,
